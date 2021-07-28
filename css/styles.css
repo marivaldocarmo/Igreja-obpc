@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.top{
+    background-color: black;
+    width: 100%;
+    color: white;
+    z-index: 10;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    text-align: center;
+
+}
+
+a.link{
+    text-decoration: none;
+    background-color: #00ff4080;
+    border: double 5px white;
+    font-size: 30px;
+    margin: 0 100px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline;
+    border-radius: 10px;
+    color: white;
+}
+
+body{
+    /*background-color: #0c0b0bf5;*/
+    background-image: url('../img/PNG7.png');
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 1px 0 0 0;
+}
+header{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#213113;
+    height: 100px;
+  }
+
+
+.OBPC{
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    opacity: 0.9; /*Baner Transparente*/
+}
+.palmeiras{
+    color: darkgreen;
+    font-size: 60;
+}
+
+img.whatsapp{
+    width: 3.5%;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 10;
+}
+div.inf{
+    background-color:#0a2c1480;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin: 150px 0 0;
+
+}
+
+#footer {
+    background-color: #030205;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  #footer img {
+    width: 80px;
+  }
+  
+  #footer p {
+    margin-top: 5px;
+    color: white;
+  }

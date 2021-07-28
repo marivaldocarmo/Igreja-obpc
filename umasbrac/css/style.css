@@ -1,0 +1,100 @@
+*{
+    /*Tira o comportamento do navegador resetando as margens da linha*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;         /*Titar os baretis q fica atraz das Lis*/
+}
+
+header{
+    background-color: black;  /*Fundo do menu (header*/
+    display: flex;              /*Quebra o menu*/
+    flex-wrap: wrap;           /*Quebrar no caso da tela ser menor*/
+    justify-content: space-between;  /*Levar pro centro*/
+    align-items: center;               /*levar o devs MCarmo no centro baixo*/
+    padding: 20px;              /*Espaçamento para todos os lados*/
+    height: 110px;
+}
+body{
+    font-family: sans-serif;
+    background-color: #0c0b0b;
+}
+a span{
+    color: #0e6327;    /*Duas cores no menu Devs*/
+}
+
+a{
+    text-decoration: none;     /*Cor do texto menu*/
+    color: white;     /*Cor do texto do menu com o fundo header q está preto*/
+    font-weight: bold;      /*Engroçar a fonte*/
+}
+.menu{
+    display: flex;      /*pomos o menu na ul pai para deitar o menu*/
+}
+.menu li{
+    padding: 10px;  
+    margin-left: 7px;    /*Dando espaço as margem*/
+}
+.menu li .itens{
+    padding: 10px;
+}
+.img-hvr{
+    transition: 0,5s ease;  /*tranzição para img*/
+}
+.itens{
+    transition: 0,5s ease-in-out;
+}
+
+/* Fim do menu */
+main{
+    max-width: 69%;
+    margin: 20px auto;  /*Deu espaço p laterais e no centro automatico*/
+}
+
+h1{
+    text-align: center;   /*Aluno no centro*/
+    font-family: 'Open Sans', sans-serif; /*google fontes*/
+}
+
+/*CONTAINER GRID*/
+.container-grid{
+    display: grid;   /*estartano o displei mas não faz nada*/
+    grid-template-columns: repeat(3, 1fr);   /*Espaçamento 20% 20% 20%;entre colunas*/
+    gap: 18px;
+}
+.card-curso{
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-curso > p {
+    line-height: 30px;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;  /*Arrendoudar a imagem*/
+}
+
+button{
+    padding: 12px 20px;
+    background: none;
+    border: none;
+    color: black;
+    
+    background-color: #0ca565;
+    border-radius: 5px;
+    transition: 0,5s ease-in-out;
+}
+/*Footer*/
+footer{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    text-decoration-color: cornsilk;
+}
+footer > p{
+    color: white;
+}
+

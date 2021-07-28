@@ -1,0 +1,14 @@
+.hvr-its:hover{                  /*Tranzicion do menu*/
+    background-color: blue;
+    border: 15px solid transparent; 
+}
+button:hover{
+    background-color: lightblue;
+    color: blue;
+  
+}
+
+.img-hvr:hover{
+   border: 5px solid #d88d2b; 
+}
+
